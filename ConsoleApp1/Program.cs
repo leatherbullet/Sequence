@@ -10,8 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {// for т.к. можно задать параметры работы цикла
-
-            int minValue = 5, maxValue = 103, numberStep = 7;
+            int minValue = 5;
+            int maxValue = 103;
+            int numberStep = 7;
 
             for (int i = minValue; i <= maxValue; i += numberStep)
             {
